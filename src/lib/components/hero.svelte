@@ -20,7 +20,7 @@
 
 			// Parallax effect for the hero image
 			gsapModule.gsap.to('.hero-image', {
-				y: '75%',
+				y: '60%',
 				ease: 'none',
 				scrollTrigger: {
 					trigger: '.hero-section', // Target the hero section
