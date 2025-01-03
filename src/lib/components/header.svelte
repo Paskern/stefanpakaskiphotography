@@ -3,6 +3,7 @@
 	import IconX from '~icons/ph/x';
 	import { links } from '$lib/config';
 	import clsx from 'clsx';
+	import { page } from '$app/stores';
 
 	let isMenuOpen = false;
 	let showHeader = true; // Determines if the header should be visible
@@ -61,6 +62,7 @@
 						<a
 							href={link.href}
 							class="text-white hover:text-gray-300 hover:underline hover:underline-offset-4"
+							class:active={$page.url.pathname === link.href}
 						>
 							{link.text.toUpperCase()}
 						</a>
@@ -84,6 +86,7 @@
 						<a
 							href={link.href}
 							class="text-white hover:text-gray-300 hover:underline hover:underline-offset-4"
+							class:active={$page.url.pathname === link.href}
 						>
 							{link.text.toUpperCase()}
 						</a>
@@ -124,3 +127,9 @@
 		{/each}
 	</div>
 </header>
+
+<style>
+	.active {
+		@apply underline underline-offset-4;
+	}
+</style>
