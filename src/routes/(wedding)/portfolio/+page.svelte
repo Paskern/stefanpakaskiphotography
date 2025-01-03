@@ -46,8 +46,8 @@
 
 <Hero
 	image="https://imagedelivery.net/UUfX0V8GvcXeuhn6hz0E7A/9113f743-cc42-48cb-98f7-3f267e443d00/Large"
-	maxHeightLarge={600}
-	maxHeightSmall={400}
+	maxHeightLarge={800}
+	maxHeightSmall={600}
 />
 
 <Bounded>
