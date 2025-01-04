@@ -14,7 +14,7 @@
 			],
 			price: '15 000 kr*',
 			image:
-				'https://imagedelivery.net/UUfX0V8GvcXeuhn6hz0E7A/7ff7d747-9289-4caa-c29a-16c672c2d600/w=800',
+				'https://imagedelivery.net/UUfX0V8GvcXeuhn6hz0E7A/6eea2efe-a772-444d-c4a5-3f3e6bf24300/w=800',
 			sale: {
 				ribbonText: 'SPAR 40%',
 				oldPrice: '25 000 kr'
@@ -30,7 +30,7 @@
 			],
 			price: '14 000 kr*',
 			image:
-				'https://imagedelivery.net/UUfX0V8GvcXeuhn6hz0E7A/05429d72-5932-4b0b-ae14-505023902e00/w=1000',
+				'https://imagedelivery.net/UUfX0V8GvcXeuhn6hz0E7A/a0f714f2-c8b4-4c02-c692-863f015b3d00/w=1000',
 			sale: {
 				ribbonText: 'SPAR 30%',
 				oldPrice: '20 000 kr'
@@ -41,7 +41,7 @@
 			description: ['3 timer fotografering', '25-50 redigerte bilder', 'Planleggingsmøte'],
 			price: '12 000 kr*',
 			image:
-				'https://imagedelivery.net/UUfX0V8GvcXeuhn6hz0E7A/ea7b04ca-7667-4787-484b-ac2c46342a00/w=800',
+				'https://imagedelivery.net/UUfX0V8GvcXeuhn6hz0E7A/1ff95fc4-0b0c-43a6-4d67-900514583d00/w=800',
 			sale: {
 				ribbonText: 'SPAR 20%',
 				oldPrice: '15 000 kr'

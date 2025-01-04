@@ -8,14 +8,14 @@
 	const reviews = [
 		{
 			image:
-				'https://imagedelivery.net/UUfX0V8GvcXeuhn6hz0E7A/7ff7d747-9289-4caa-c29a-16c672c2d600/w=208',
+				'https://imagedelivery.net/UUfX0V8GvcXeuhn6hz0E7A/6eea2efe-a772-444d-c4a5-3f3e6bf24300/w=208',
 			quote:
 				'"Imøtekommende fotograf, som gjorde samarbeidet lett og fint. Stefan bidro til avslappet stemning på selve dagen og sørget for at det ble mer komfortabelt foran kamera. Det var enkelt å kommunisere både i forkant av bryllupet, på bryllupsdagen og i etterkant. Han skled rett inn i omgivelsene under middagen og vi merket knapt at han var der. Det tok ikke lang tid før vi fikk bildene og vi er veldig fornøyd med opplevelsen og det ferdig resultatet. Vi anbefaler sterkt å velge han til å forevige den store dagen."',
 			name: '- Helene & Nicolai'
 		},
 		{
 			image:
-				'https://imagedelivery.net/UUfX0V8GvcXeuhn6hz0E7A/bd370e19-5a1e-4c04-2bbd-9d327f8d3900/w=208',
+				'https://imagedelivery.net/UUfX0V8GvcXeuhn6hz0E7A/1ff95fc4-0b0c-43a6-4d67-900514583d00/w=208',
 			quote:
 				'"Vi er kjempe glade for at vi valgte å ha Stefan med på laget på den store dagen vår. Han tok bilder i vielsen, velkomst, middag og dansegulv. Han var diskret, profesjonell og tok kjempe kjempefine bilder av oss og alle gjestene våre. Han fanget så mange verdifulle øyeblikk. Gjestene våre opplevde han også som utrolig hyggelig. Stefan var også lett å kommunisere med og opptatt at det som var viktig for oss, som gjorde det hele bedre. Tusen takk Stefan, vi er kjempe fornøyd."',
 			name: '- Karoline & Tor Erlend'

@@ -41,7 +41,7 @@
 
 <div class="mx-auto max-w-[1900px] px-4">
 	<div class="pswp-gallery" id={galleryID}>
-		<Gallery {images} rowHeight={600} gutter={14} let:image>
+		<Gallery {images} rowHeight={550} gutter={14} let:image>
 			<a
 				href={image.src}
 				data-pswp-width={image.width}

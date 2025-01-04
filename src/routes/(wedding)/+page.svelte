@@ -2,45 +2,49 @@
 	import Hero from '$lib/components/hero.svelte';
 	import Bounded from '$lib/components/bounded.svelte';
 	import Heading1 from '$lib/components/heading1.svelte';
-	import GalleryMini from '$lib/components/GalleryMini.svelte';
+	import Gallery from '$lib/components/gallery.svelte';
 	import Heading2 from '$lib/components/heading2.svelte';
 	import Swiper from '$lib/components/swiper.svelte';
-	import Button from '$lib/components/ui/button/button.svelte';
 
 	export const images = [
 		{
-			src: 'https://imagedelivery.net/UUfX0V8GvcXeuhn6hz0E7A/e4156fe1-8742-4cc3-cc85-3259a11d3800/Large',
+			src: 'https://imagedelivery.net/UUfX0V8GvcXeuhn6hz0E7A/6eea2efe-a772-444d-c4a5-3f3e6bf24300/Large',
 			width: 853,
 			height: 1280
 		},
 		{
-			src: 'https://imagedelivery.net/UUfX0V8GvcXeuhn6hz0E7A/05429d72-5932-4b0b-ae14-505023902e00/Large',
+			src: 'https://imagedelivery.net/UUfX0V8GvcXeuhn6hz0E7A/77fe11c5-a147-4bc9-0d9a-351320b03f00/Large',
 			width: 1920,
 			height: 1280
 		},
 		{
-			src: 'https://imagedelivery.net/UUfX0V8GvcXeuhn6hz0E7A/9113f743-cc42-48cb-98f7-3f267e443d00/Large',
-			width: 1920,
+			src: 'https://imagedelivery.net/UUfX0V8GvcXeuhn6hz0E7A/1ff95fc4-0b0c-43a6-4d67-900514583d00/Large',
+			width: 853,
 			height: 1280
 		},
 
 		{
-			src: 'https://imagedelivery.net/UUfX0V8GvcXeuhn6hz0E7A/05429d72-5932-4b0b-ae14-505023902e00/Large',
-			width: 1920,
-			height: 1280
-		},
-		{
-			src: 'https://imagedelivery.net/UUfX0V8GvcXeuhn6hz0E7A/e4156fe1-8742-4cc3-cc85-3259a11d3800/public',
+			src: 'https://imagedelivery.net/UUfX0V8GvcXeuhn6hz0E7A/72f10d78-3f10-46b4-c4f5-dd15e6c82600/Large',
 			width: 853,
 			height: 1280
 		},
 		{
-			src: 'https://imagedelivery.net/UUfX0V8GvcXeuhn6hz0E7A/9113f743-cc42-48cb-98f7-3f267e443d00/Large',
+			src: 'https://imagedelivery.net/UUfX0V8GvcXeuhn6hz0E7A/aa5bb380-f2d2-4039-d6f7-f79742cdf900/Large',
 			width: 1920,
 			height: 1280
 		},
 		{
-			src: 'https://imagedelivery.net/UUfX0V8GvcXeuhn6hz0E7A/e4156fe1-8742-4cc3-cc85-3259a11d3800/Large',
+			src: 'https://imagedelivery.net/UUfX0V8GvcXeuhn6hz0E7A/796c6b64-a7ed-449c-c024-2c90fcc70f00/Large',
+			width: 853,
+			height: 1280
+		},
+		{
+			src: 'https://imagedelivery.net/UUfX0V8GvcXeuhn6hz0E7A/a0f714f2-c8b4-4c02-c692-863f015b3d00/Large',
+			width: 1920,
+			height: 1280
+		},
+		{
+			src: 'https://imagedelivery.net/UUfX0V8GvcXeuhn6hz0E7A/6f9d4aa9-77ae-424a-2e1b-d3f75e7ff900/Large',
 			width: 853,
 			height: 1280
 		}
@@ -71,7 +75,7 @@
 <Bounded>
 	<Heading2>Portefølje</Heading2>
 </Bounded>
-<GalleryMini {images} />
+<Gallery {images} />
 
 <Bounded>
 	<a href="/portfolio">
