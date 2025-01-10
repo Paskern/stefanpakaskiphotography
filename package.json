@@ -56,11 +56,11 @@
 		"@fontsource-variable/nunito": "^5.1.0",
 		"@supabase/supabase-js": "^2.47.10",
 		"@tailwindcss/typography": "^0.5.15",
-		"@types/nodemailer": "^6.4.17",
 		"embla-carousel-autoplay": "^8.5.1",
 		"gsap": "^3.12.5",
 		"nodemailer": "^6.9.16",
 		"photoswipe": "^5.4.4",
+		"resend": "^4.0.1",
 		"svelte-gallery": "github:photo-challenge/svelte-gallery"
 	}
 }
