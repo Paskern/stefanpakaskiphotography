@@ -35,6 +35,7 @@ export const actions: Actions = {
 		await resend.emails.send({
 			from: 'Info <info@spphoto.no>',
 			to: ['stefan@spphoto.no'],
+			replyTo: form.data.email,
 			subject: 'Ny henvendelse - Bryllupsfotografering',
 			html: `
 							<!DOCTYPE html>
