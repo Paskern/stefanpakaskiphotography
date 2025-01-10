@@ -14,7 +14,7 @@
 <Bounded>
 	<Heading1>Priser</Heading1>
 	<Prices />
-	<Sale saleEndDate="31. Januar 2025" />
+	<Sale saleEndDate="31. januar 2025" />
 </Bounded>
 
 <Swiper />

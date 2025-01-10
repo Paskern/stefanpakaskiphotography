@@ -10,7 +10,8 @@
 				'12 timer fotografering',
 				'500+ redigerte bilder',
 				'Planleggingsmøte',
-				'Forlovelsesfotografering'
+				'Forlovelsesfotografering',
+				'Rabatt på album'
 			],
 			price: '15 000 kr*',
 			image:
@@ -91,7 +92,7 @@
 			</div>
 			<div class="flex justify-center pb-4">
 				<Button
-					href="/portfolio"
+					href="/contact"
 					class="rounded-full bg-neutral-900 px-4 py-2 text-sm font-medium text-white transition-all duration-300 hover:bg-neutral-700 focus:outline-none focus:ring focus:ring-neutral-500 sm:text-base md:px-6 md:py-3 md:text-lg"
 				>
 					Se mer og bestill
