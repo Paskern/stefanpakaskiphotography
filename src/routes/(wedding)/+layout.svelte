@@ -1,5 +1,4 @@
 <script lang="ts">
-	import Analytics from '$lib/components/analytics.svelte';
 	// Import fonts
 	import '@fontsource-variable/montserrat';
 	import '@fontsource-variable/bodoni-moda';
@@ -13,8 +12,6 @@
 	import Header from '$lib/components/header.svelte';
 	import Footer from '$lib/components/footer.svelte';
 </script>
-
-<Analytics />
 
 <div class="flex min-h-screen flex-col">
 	<Header />
