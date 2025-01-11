@@ -27,7 +27,7 @@
 	<Heading1 class="">Kontakt</Heading1>
 	<p class="my-4 flex justify-center">Ta kontakt for en uforpliktende prat!</p>
 
-	<Separator class="mb-8 h-[2px] max-w-24 bg-zinc-800" decorative={true} />
+	<Separator class="mb-8 h-[2px] max-w-20 bg-zinc-800" decorative={true} />
 
 	<div class="flex w-full flex-col gap-12 px-6 md:flex-row">
 		<div class="flex flex-col justify-center gap-4 md:w-2/5">
