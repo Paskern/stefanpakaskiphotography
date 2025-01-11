@@ -53,7 +53,7 @@
 
 <Hero
 	heading="Fang øyeblikkene som varer evig"
-	body="Fra de stille stundene til de store følelsene – vi er der for å forevige deres historie."
+	body="Når festen stilner og hverdagen tar over, skal bildene fortsatt fortelle historien deres."
 />
 
 <Bounded>
