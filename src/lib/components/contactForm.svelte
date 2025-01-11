@@ -146,5 +146,5 @@
 		<Form.FieldErrors />
 	</Form.Field>
 
-	<Form.Button class="mt-4" type="submit">Send</Form.Button>
+	<Form.Button class="mt-4 rounded-full" type="submit">Send</Form.Button>
 </form>
