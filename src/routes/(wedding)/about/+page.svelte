@@ -1,6 +1,9 @@
 <script>
 	import Bounded from '$lib/components/bounded.svelte';
+	import Heading2 from '$lib/components/heading2.svelte';
 	import Hero from '$lib/components/hero.svelte';
+	import Swiper from '$lib/components/swiper.svelte';
+	import { Separator } from '$lib/components/ui/separator';
 </script>
 
 <scirpt> </scirpt>
@@ -35,5 +38,20 @@
 				class="h-64 w-64 rounded-full border-4 border-neutral-200 object-cover shadow-lg md:h-72 md:w-72"
 			/>
 		</div>
-	</div></Bounded
->
+	</div>
+
+	<div class="pt-12 md:pt-16">
+		<h2 class="text-2xl font-bold text-gray-900 md:text-3xl">
+			Klare til å forevige deres store dag?
+		</h2>
+	</div>
+	<a href="/contact">
+		<button
+			type="button"
+			class="my-6 mb-12 me-2 rounded-full bg-neutral-800 px-5 py-2.5 text-xl font-medium text-white hover:bg-neutral-900 focus:outline-none focus:ring-4 focus:ring-neutral-300 dark:border-neutral-700 dark:bg-neutral-800 dark:hover:bg-neutral-700 dark:focus:ring-neutral-700"
+			>Book fotografering</button
+		>
+	</a>
+</Bounded>
+
+<Swiper />
